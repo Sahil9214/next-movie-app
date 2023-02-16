@@ -15,6 +15,8 @@ import { BiLeftArrowAlt, BiRightArrowAlt } from "react-icons/bi";
 const Home = () => {
   const [slider, setSlider] = React.useState(null);
 
+  console.log("This is homepage")
+
   const top = useBreakpointValue({ base: "90%", md: "50%" });
   const side = useBreakpointValue({ base: "30%", md: "40px" });
   const settings = {
